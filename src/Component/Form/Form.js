@@ -43,8 +43,7 @@ export const Form = ({ toggleForm })=>{
             // posted a request to the server below
             const user = {
                 email: email,
-                pswd: password,
-                // eyep
+                password: password,
             };
 
 
